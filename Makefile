@@ -1,9 +1,9 @@
-CXX = g++
-CXXFLAGS = -Wall -std=c++17
+CC = gcc
+CFLAGS = -Wall -std=c17
 TARGET = graph
 
-SOURCES = main.c Base/adjacentListGraph.c Base/adjacentMatrizGraph.c Algoritmos/dfs.c Algoritmos/bfs.c
-OBJECTS = main.o Base/adjacentListGraph.o Base/adjacentMatrizGraph.o Algoritmos/dfs.o Algoritmos/bfs.c
+SOURCES = main.c Base/adjacentListGraph.c Base/adjacentMatrizGraph.c Algoritmos_de_Busca/dfs.c Algoritmos_de_Busca/bfs.c
+OBJECTS = main.o Base/adjacentListGraph.o Base/adjacentMatrizGraph.o Algoritmos_de_Busca/dfs.o Algoritmos_de_Busca/bfs.o
 
 all: $(TARGET)
 
